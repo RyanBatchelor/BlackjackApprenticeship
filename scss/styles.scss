@@ -1,0 +1,81 @@
+.navbar .btn-outline-light:hover {
+  color: var(--bs-dark);
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-item a{
+  color: #505050;
+}
+
+.navbar-sticky {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.navbar-sticky a{
+  color: #fff;
+}
+
+.header {
+  background: url(../images/SimpleShiny.svg) center center no-repeat;
+  background-size: cover;
+}
+
+.header h1, .header p{
+  color: #505050;
+}
+
+.img-half{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-dialog {
+  max-width: 1040px;
+}
+
+.download {
+  background: url(../images/SimpleShiny.svg) center center no-repeat;
+  background-size: cover;
+}
+
+.download h2, .download p{
+  color: #505050;
+}
+
+.map iframe {
+  left: 0;
+  top: 0;
+  height: 400px;
+  width: 100%;
+  border: none;
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    background: var(--bs-dark);
+  }
+
+  .navbar a{
+    color: #fff;
+    text-align: left;
+  }
+
+  #contact{
+    margin-left: none;
+  }
+
+  .hero .image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero .text-container {
+    text-align: center;
+  }
+}
